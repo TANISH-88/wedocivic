@@ -1,0 +1,42 @@
+[33mcommit 49d5fe040a91f3b48d351f4c7291ba17988fd34e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Tanish <tanishpalsingh5095@gmail.com>
+Date:   Sat Apr 4 11:13:08 2026 +0530
+
+    Frontend: Core infrastructure and shared components
+
+.eslintrc.json
+.gitignore
+next-env.d.ts
+next.config.mjs
+package-lock.json
+package.json
+postcss.config.js
+src/app/globals.css
+src/app/layout.tsx
+src/components/layout/Navbar.tsx
+src/components/layout/Sidebar.tsx
+src/components/providers/AuthProvider.tsx
+src/components/ui/Avatar.tsx
+src/hooks/index.ts
+src/hooks/useDebounce.ts
+src/hooks/useRequireAuth.ts
+src/lib/adminApi.ts
+src/lib/api.ts
+src/lib/utils.ts
+src/lib/validations.ts
+src/proxy.ts
+src/services/admin.service.ts
+src/services/api.services.ts
+src/services/auth.service.ts
+src/services/chat.service.ts
+src/services/event.service.ts
+src/services/group.service.ts
+src/services/index.ts
+src/services/notification.service.ts
+src/services/post.service.ts
+src/services/social.service.ts
+src/services/user.service.ts
+src/store/auth.store.ts
+src/store/chat.store.ts
+tailwind.config.ts
+tsconfig.json
