@@ -78,3 +78,18 @@ pip install -r requirements.txt
 
 # Launch the FastAPI server with hot-reload enabled
 uvicorn main:app --reload
+
+
+
+### **Frontend Deployment & Development**
+
+#### **Terminal Initialization**
+```bash
+# Enter the frontend root directory
+cd frontend
+
+# Install Next.js 16.2.1, TypeScript, Tailwind, and dependencies
+npm install
+
+# Launch the development environment with Turbopack for ultra-fast HMR
+npm run dev
