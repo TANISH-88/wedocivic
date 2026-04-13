@@ -60,7 +60,7 @@ export default function Navbar() {
           {/* ... Logo & Search ... */}
           <Link href="/" className="flex items-center gap-2 shrink-0 group">
             <div className="w-8 h-8 rounded-xl bg-gradient-to-br from-civic-500 to-civic-700 flex items-center justify-center shadow-green group-hover:scale-105 transition-transform">
-              <span className="text-white font-bold text-sm">CI</span>
+              <img src="./new.jpeg" alt="" />
             </div>
             <span className="font-display font-bold text-white text-lg hidden sm:block tracking-tight">CivicImpact</span>
           </Link>
